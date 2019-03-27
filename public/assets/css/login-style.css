@@ -1,0 +1,132 @@
+html, body, div, span, object, iframe,  h1, h2, h3, h4, h5, h6, p, blockquote, pre,  abbr, address, cite, code,  del, dfn, em, img, ins, kbd, q, samp,  small, strong, sub, sup, var,  b, i,  dl, dt, dd, ol, ul, li,  fieldset, form, label, legend,  table, caption, tbody, tfoot, thead, tr, th, td,  article, aside, canvas, details, figcaption, figure,  footer, header, hgroup, menu, nav, section, summary,  time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #EAEAEA;
+}
+article, aside, details, figcaption, figure,  footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+nav ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,  q:before, q:after {
+	content: '';
+	content: none;
+}
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+/* change colours to suit your needs */
+
+ins {
+	background-color: #ff9;
+	color: #000;
+	text-decoration: none;
+}
+/* change colours to suit your needs */
+
+mark {
+	background-color: #ff9;
+	color: #000;
+	font-style: italic;
+	font-weight: bold;
+}
+del {
+	text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* change border colour to suit your needs */
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #cccccc;
+	margin: 1em 0;
+	padding: 0;
+}
+input, select {
+	vertical-align: middle;
+}
+
+
+/* LOGIN AND LOST PASSWORD PAGE STYLE	*/
+.clear{ margin:0; height:0; padding:0; clear:both; }
+.logo-image { text-align:center; }
+.outer-box{ margin:9.5% auto auto;  position:relative; }
+.inner-box{ margin: 0 auto; margin-top: 4%; background-color: #fff; border-radius:15px; width:439px; height:329px; box-shadow: 1px 1px 15px 1px #ddd; }
+.inner-padding{ padding: 50px 55px;  }
+.input-rounded{ margin: 8px auto; border-radius:21.5px; height:43px; width:100%; text-align:center;  border: none; }
+input.input-rounded{ background-color: #eaebeb; color:#000; }
+input.input-rounded:focus{ border-color: none; box-shadow: 0 0 5px 1px #a11f22; }
+button.input-rounded{ background-color: #a11f22; color:#fff; }
+button.input-rounded:hover, button.input-rounded:active, button.input-rounded:visited{ background-color: #000;}
+.input-rounded.disabled, .input-rounded:disabled{ background-color: #000;  }
+
+.input-rounded, .input-label{ font-size: 14px; }
+label.input-label{ padding-left: 20px; }
+.input-label.text-center{ padding-top: 10px; }
+.input-label a{ color: #000; }
+.input-label a:hover, .input-label a:visited, .input-label a:active{ color: #000; cursor:pointer; text-decoration:none; }
+
+.heading-label{ font-size: 26px; font-weight:700; color: #2e363f; line-height: 1.84; margin: 3px auto; }
+.text-label{ font-size: 13px; color: #898c90; line-height: 1.462; margin: 3px auto; text-align:center; }
+
+
+/*! responsive style !*//* box resize*/
+/********** Media Qyery **********/
+@media (max-width: 1200px) { 
+
+}
+
+@media (min-width: 990px) and (max-width: 1198px) { 
+	.outer-box { margin: 40% auto auto; }
+	.inner-box { margin-top: 10%;  }
+}
+
+@media (min-width: 768px) and (max-width: 990px) { 
+	.outer-box { margin: 35% auto auto; }
+	.inner-box { margin-top: 10%;  }
+ }
+
+@media (max-width: 767px) { }
+
+@media (max-width: 640px) { }
+
+@media (min-width: 320px) and  (max-width: 374px) {  
+	.outer-box { margin: 20% auto auto; }
+	.inner-box { margin-top: 20%; width:100%; }	
+}
+
+@media (width: 375px) { 
+	.outer-box { margin: 30% auto auto; }
+	.inner-box { margin-top: 10%; width:100%; }	
+}
+
+@media (min-width: 376px) and  (max-width: 480px) {  
+	.outer-box { margin: 20% auto auto; }
+	.inner-box { margin-top: 20%; width:100%; }	
+}
